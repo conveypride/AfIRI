@@ -1,0 +1,50 @@
+/**
+ * @file
+ * Styles for the system status counter component.
+ */
+
+ .system-status-counter__status-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  .system-status-counter__status-icon:before {
+    display: block;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center 2px;
+    background-size: 20px;
+  }
+  
+  .system-status-counter__status-icon--error:before {
+    background-image: url(//web/20211206064810im_/http://afiri.institute/core/themes/stable/images/core/icons/e32700/error.svg);
+  }
+  .system-status-counter__status-icon--warning:before {
+    background-image: url(//web/20211206064810im_/http://afiri.institute/core/themes/stable/images/core/icons/e29700/warning.svg);
+  }
+  .system-status-counter__status-icon--checked:before {
+    background-image: url(//web/20211206064810im_/http://afiri.institute/core/themes/stable/images/core/icons/73b355/check.svg);
+  }
+  
+  /*
+       FILE ARCHIVED ON 06:48:10 Dec 06, 2021 AND RETRIEVED FROM THE
+       INTERNET ARCHIVE ON 11:22:17 Nov 05, 2024.
+       JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+  
+       ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+       SECTION 108(a)(3)).
+  */
+  /*
+  playback timings (ms):
+    captures_list: 0.832
+    exclusion.robots: 0.038
+    exclusion.robots.policy: 0.024
+    esindex: 0.014
+    cdx.remote: 8.506
+    LoadShardBlock: 152.34 (3)
+    PetaboxLoader3.datanode: 176.288 (4)
+    load_resource: 129.402
+    PetaboxLoader3.resolve: 97.588
+  */
+  

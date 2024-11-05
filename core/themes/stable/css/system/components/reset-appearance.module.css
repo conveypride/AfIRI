@@ -1,0 +1,37 @@
+/*
+ * @file
+ * Utility class to remove browser styles, especially for button.
+ */
+
+ .reset-appearance {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    background: transparent;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  /*
+       FILE ARCHIVED ON 16:05:38 Dec 04, 2021 AND RETRIEVED FROM THE
+       INTERNET ARCHIVE ON 11:17:45 Nov 05, 2024.
+       JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+  
+       ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+       SECTION 108(a)(3)).
+  */
+  /*
+  playback timings (ms):
+    captures_list: 0.653
+    exclusion.robots: 0.029
+    exclusion.robots.policy: 0.017
+    esindex: 0.011
+    cdx.remote: 26.113
+    LoadShardBlock: 120.681 (3)
+    PetaboxLoader3.datanode: 181.133 (4)
+    load_resource: 177.592
+    PetaboxLoader3.resolve: 101.744
+  */
+  

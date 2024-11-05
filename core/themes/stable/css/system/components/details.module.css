@@ -1,0 +1,32 @@
+/**
+ * @file
+ * Collapsible details.
+ *
+ * @see collapse.js
+ */
+
+ .js details:not([open]) .details-wrapper {
+    display: none;
+  }
+  
+  /*
+       FILE ARCHIVED ON 07:06:41 Dec 07, 2021 AND RETRIEVED FROM THE
+       INTERNET ARCHIVE ON 11:03:34 Nov 05, 2024.
+       JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+  
+       ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+       SECTION 108(a)(3)).
+  */
+  /*
+  playback timings (ms):
+    captures_list: 0.683
+    exclusion.robots: 0.051
+    exclusion.robots.policy: 0.038
+    esindex: 0.011
+    cdx.remote: 10.392
+    LoadShardBlock: 102.466 (3)
+    PetaboxLoader3.datanode: 134.466 (4)
+    load_resource: 142.717
+    PetaboxLoader3.resolve: 91.438
+  */
+  

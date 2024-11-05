@@ -1,0 +1,36 @@
+/**
+ * @file
+ * Default styles for the System Status general info.
+ */
+
+ .system-status-general-info__item {
+    margin-top: 1em;
+    padding: 0 1em 1em;
+    border: 1px solid #ccc;
+  }
+  
+  .system-status-general-info__item-title {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /*
+       FILE ARCHIVED ON 07:06:42 Dec 07, 2021 AND RETRIEVED FROM THE
+       INTERNET ARCHIVE ON 11:26:11 Nov 05, 2024.
+       JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+  
+       ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+       SECTION 108(a)(3)).
+  */
+  /*
+  playback timings (ms):
+    captures_list: 0.788
+    exclusion.robots: 0.042
+    exclusion.robots.policy: 0.024
+    esindex: 0.014
+    cdx.remote: 37.541
+    LoadShardBlock: 203.131 (3)
+    PetaboxLoader3.resolve: 160.989 (3)
+    PetaboxLoader3.datanode: 87.968 (4)
+    load_resource: 49.046
+  */
+  

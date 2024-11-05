@@ -1,0 +1,37 @@
+/**
+ * @file
+ * Float clearing.
+ *
+ * Based on the micro clearfix hack by Nicolas Gallagher, with the :before
+ * pseudo selector removed to allow normal top margin collapse.
+ *
+ * @see http://nicolasgallagher.com/micro-clearfix-hack
+ */
+
+ .clearfix:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  
+  /*
+       FILE ARCHIVED ON 09:37:27 Dec 03, 2021 AND RETRIEVED FROM THE
+       INTERNET ARCHIVE ON 11:02:14 Nov 05, 2024.
+       JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+  
+       ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+       SECTION 108(a)(3)).
+  */
+  /*
+  playback timings (ms):
+    captures_list: 1.709
+    exclusion.robots: 0.021
+    exclusion.robots.policy: 0.012
+    esindex: 0.01
+    cdx.remote: 19.668
+    LoadShardBlock: 171.273 (3)
+    PetaboxLoader3.datanode: 142.639 (4)
+    PetaboxLoader3.resolve: 101.978 (2)
+    load_resource: 108.712
+  */
+  

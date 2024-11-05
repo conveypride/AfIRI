@@ -1,0 +1,40 @@
+/**
+ * @file
+ * Visual styles for a nested tree child.
+ */
+
+ div.tree-child {
+    background: url(//web/20211202123954im_/http://afiri.institute/core/themes/stable/images/core/tree.png) no-repeat 11px center; /* LTR */
+  }
+  div.tree-child-last {
+    background: url(//web/20211202123954im_/http://afiri.institute/core/themes/stable/images/core/tree-bottom.png) no-repeat 11px center; /* LTR */
+  }
+  [dir="rtl"] div.tree-child,
+  [dir="rtl"] div.tree-child-last {
+    background-position: -65px center;
+  }
+  div.tree-child-horizontal {
+    background: url(//web/20211202123954im_/http://afiri.institute/core/themes/stable/images/core/tree.png) no-repeat -11px center;
+  }
+  
+  /*
+       FILE ARCHIVED ON 12:39:54 Dec 02, 2021 AND RETRIEVED FROM THE
+       INTERNET ARCHIVE ON 11:29:04 Nov 05, 2024.
+       JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+  
+       ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+       SECTION 108(a)(3)).
+  */
+  /*
+  playback timings (ms):
+    captures_list: 1.728
+    exclusion.robots: 0.026
+    exclusion.robots.policy: 0.017
+    esindex: 0.01
+    cdx.remote: 7.03
+    LoadShardBlock: 286.225 (3)
+    PetaboxLoader3.datanode: 86.55 (4)
+    PetaboxLoader3.resolve: 244.633 (2)
+    load_resource: 113.578
+  */
+  

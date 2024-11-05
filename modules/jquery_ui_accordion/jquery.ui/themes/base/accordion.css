@@ -1,0 +1,44 @@
+/*!
+ * jQuery UI Accordion 1.12.1
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/accordion/#theming
+ */
+ .ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: .5em .5em .5em .7em;
+	font-size: 100%;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 1em 2.2em;
+	border-top: 0;
+	overflow: auto;
+}
+
+/*
+     FILE ARCHIVED ON 09:08:25 Jan 29, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:14:16 Nov 05, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.522
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.017
+  esindex: 0.011
+  cdx.remote: 7.518
+  LoadShardBlock: 264.394 (3)
+  PetaboxLoader3.datanode: 217.995 (4)
+  PetaboxLoader3.resolve: 287.366 (2)
+  load_resource: 258.657
+*/

@@ -1,0 +1,71 @@
+/**
+ * @file
+ * Throbber.
+ */
+
+ .ajax-progress {
+    display: inline-block;
+    padding: 1px 5px 2px 5px;
+  }
+  [dir="rtl"] .ajax-progress {
+    float: right;
+  }
+  .ajax-progress-throbber .throbber {
+    display: inline;
+    padding: 1px 5px 2px;
+    background: transparent url(/web/20211206064822im_/http://afiri.institute/core/themes/stable/images/core/throbber-active.gif) no-repeat 0 center;
+  }
+  .ajax-progress-throbber .message {
+    display: inline;
+    padding: 1px 5px 2px;
+  }
+  tr .ajax-progress-throbber .throbber {
+    margin: 0 2px;
+  }
+  .ajax-progress-bar {
+    width: 16em;
+  }
+  
+  /* Full screen throbber */
+  .ajax-progress-fullscreen {
+    position: fixed;
+    z-index: 1000;
+    top: 48.5%;
+    /* Can't do center:50% middle: 50%, so approximate it for a typical window size. */
+    left: 49%; /* LTR */
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    opacity: 0.9;
+    border-radius: 7px;
+    background-color: #232323;
+    background-image: url(/core/themes/stable/images/core/throbber-active.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  [dir="rtl"] .ajax-progress-fullscreen {
+    right: 49%;
+    left: auto;
+  }
+  
+  /*
+       FILE ARCHIVED ON 06:48:22 Dec 06, 2021 AND RETRIEVED FROM THE
+       INTERNET ARCHIVE ON 10:42:17 Nov 05, 2024.
+       JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+  
+       ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+       SECTION 108(a)(3)).
+  */
+  /*
+  playback timings (ms):
+    captures_list: 0.554
+    exclusion.robots: 0.018
+    exclusion.robots.policy: 0.008
+    esindex: 0.01
+    cdx.remote: 27.686
+    LoadShardBlock: 87.19 (3)
+    PetaboxLoader3.datanode: 71.288 (4)
+    PetaboxLoader3.resolve: 207.771 (2)
+    load_resource: 196.29
+  */
+  

@@ -1,0 +1,75 @@
+/**
+ * @file
+ * Utility classes to hide elements in different ways.
+ */
+
+/**
+ * Hide elements from all users.
+ *
+ * Used for elements which should not be immediately displayed to any user. An
+ * example would be collapsible details that will be expanded with a click
+ * from a user. The effect of this class can be toggled with the jQuery show()
+ * and hide() functions.
+ */
+ .hidden {
+    display: none;
+  }
+  
+  /**
+   * Hide elements visually, but keep them available for screen readers.
+   *
+   * Used for information required for screen reader users to understand and use
+   * the site where visual display is undesirable. Information provided in this
+   * manner should be kept concise, to avoid unnecessary burden on the user.
+   * "!important" is used to prevent unintentional overrides.
+   */
+  .visually-hidden {
+    position: absolute !important;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 1px;
+    height: 1px;
+    word-wrap: normal;
+  }
+  
+  /**
+   * The .focusable class extends the .visually-hidden class to allow
+   * the element to be focusable when navigated to via the keyboard.
+   */
+  .visually-hidden.focusable:active,
+  .visually-hidden.focusable:focus {
+    position: static !important;
+    overflow: visible;
+    clip: auto;
+    width: auto;
+    height: auto;
+  }
+  
+  /**
+   * Hide visually and from screen readers, but maintain layout.
+   */
+  .invisible {
+    visibility: hidden;
+  }
+  
+  /*
+       FILE ARCHIVED ON 22:32:43 Dec 06, 2021 AND RETRIEVED FROM THE
+       INTERNET ARCHIVE ON 11:04:07 Nov 05, 2024.
+       JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+  
+       ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+       SECTION 108(a)(3)).
+  */
+  /*
+  playback timings (ms):
+    captures_list: 1.98
+    exclusion.robots: 0.05
+    exclusion.robots.policy: 0.039
+    esindex: 0.013
+    cdx.remote: 9.15
+    LoadShardBlock: 209.408 (3)
+    PetaboxLoader3.datanode: 115.469 (4)
+    PetaboxLoader3.resolve: 170.463 (2)
+    load_resource: 84.082
+  */
+  

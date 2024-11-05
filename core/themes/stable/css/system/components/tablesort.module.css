@@ -1,0 +1,41 @@
+/**
+ * @file
+ * Table sort indicator.
+ *
+ * @see tablesort-indicator.html.twig
+ */
+
+ .tablesort {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 100%;
+  }
+  .tablesort--asc {
+    background-image: url(//web/20211207062704im_/http://afiri.institute/core/themes/stable/images/core/icons/787878/twistie-down.svg);
+  }
+  .tablesort--desc {
+    background-image: url(//web/20211207062704im_/http://afiri.institute/core/themes/stable/images/core/icons/787878/twistie-up.svg);
+  }
+  
+  /*
+       FILE ARCHIVED ON 06:27:04 Dec 07, 2021 AND RETRIEVED FROM THE
+       INTERNET ARCHIVE ON 11:28:09 Nov 05, 2024.
+       JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+  
+       ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+       SECTION 108(a)(3)).
+  */
+  /*
+  playback timings (ms):
+    captures_list: 0.542
+    exclusion.robots: 0.026
+    exclusion.robots.policy: 0.016
+    esindex: 0.009
+    cdx.remote: 7.266
+    LoadShardBlock: 45.89 (3)
+    PetaboxLoader3.datanode: 58.799 (4)
+    load_resource: 68.078
+    PetaboxLoader3.resolve: 50.783
+  */
+  
